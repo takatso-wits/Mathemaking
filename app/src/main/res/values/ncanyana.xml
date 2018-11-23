@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ncanyana_intro">
+        Suppose we are looking for numbers that could add up to a certain integrally positive number n
+        and the number of ways such a number could be summed up."\n"
+        The following is our investigation, keeping in mind one that 1 cannot be summed up in the
+        set of integers as it symbolises unity."\n"
+        Thus we begin at the very first of prime and even numbers <b>2</b> a combination which makes
+        it distinguished of all integers."\n\n"
+    </string>
+
+    <string name="ncanyana_note">
+        <b>
+            Note: First values on the upper-left are entries, each number after the colon and below is an element."\n"
+            Every first row of summations is a pivot row or a pivot series."\n"
+            A series is a summation of elements per row, and the terms categorise the levels of summations
+            towards the entry in question. "\n\n"
+        </b>
+    </string>
+    <string name="ncanyana_first_sum">
+        Number: 2"\n"
+        1<sup>st</sup> sum:
+        2: 1 + 1 "\n\n"
+
+        2<sup>nd</sup> sum:
+        2:0 + 0 + 0..."\n"
+    </string>
+    <string name="ncanyana_second_sum">
+        Number: 3"\n"
+        1<sup>st</sup> sum:
+        3: 2 + 1 "\n\n"
+
+        2<sup>nd</sup> sum:
+        2: 1 + 1 + 1"\n"
+
+        3<sup>rd</sup> sum:
+        3:0 + 0 + 0..."\n"
+
+    </string>
+    <string name="ncanyana_third_sum">
+        Number: 4"\n"
+        1<sup>st</sup> sum:
+        4: 3 + 1 "\n"
+        2 + 2"\n"
+        2<sup>nd</sup> sum:
+        4: 2 + 1 + 1"\n"
+
+        3<sup>rd</sup> sum:
+        4:1 + 1 + 1 + 1"\n"
+
+        4<sup>th</sup> sum:
+        4:0 + 0 + 0 + 0..."\n"
+
+    </string>
+
+    <string name="ncanyana_pyramid">
+        THE PYRAMID OF NCANYANA"\n"
+        1: 0 ; inf "\n"
+        2: 1; inf "\n"
+        3: 1; 1; inf "\n"
+        4: 2; 1; 1; inf "\n"
+        5: 2; 2; 1; 1; inf "\n"
+        6: 3; 3; 2; 1; 1; inf "\n"
+        . "\n"
+        . "\n"
+        . "\n"
+
+        So each element represents the number or rows per term in the entry of task...
+
+    </string>
+    <string name="ncanyana_the_odds">
+        It is well established that if n is any integer then  <i>n + (n + 1)</i> is an odd number."\n"
+        Example: "\n"4 + 3 = 1"\n" 7 + 6 = 11 or -7 + (-7 - 1) = -7 + (-8) = -15 "\n"
+        However, there is another way of generating a set of odd numbers and it goes as follows:"\n"
+        <i>(n(n + n) - n)/n = (n(2n) - n)/n</i> "\n"
+        <i>= (2n<sup>2</sup> - n)/n</i>
+        "\n\n"
+    </string>
+    <string name="ncanyana_the_odds_example">
+        Example: If we choose 3 and substitute it into the formua above,"\n\n"
+        <i>(2(3<sup>2</sup>) - 3)/3 = 5</i>
+        "\n\n"
+    </string>
+
+    <string name="ncanyana_equations">
+        If we equate the 2 expressions above whic, each, generate a set of odd number we get: "\n"
+        <i>(2n<sup>2</sup> - n)/n = n + (n - 1)</i> "\n"
+        Solving <i>n</i>:"\n"
+        <i>(2n<sup>2</sup> - n) = n(n + (n - 1))</i>"\n"
+        <i>(2n<sup>2</sup> - n) = n(2n - 1))</i>"\n"
+        <i>(2n<sup>2</sup> - n) = (2n<sup>2</sup> - n)</i>"\n"
+        The LHS is equal to the RHS as it can be seen.
+    </string>
+</resources>

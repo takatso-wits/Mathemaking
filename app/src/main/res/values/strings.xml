@@ -1,0 +1,662 @@
+<resources>
+    <!--Application Contents-->
+    <string name="app_name">Mathemaking</string>
+    <string name="doneButton"> Done </string>
+
+    <!--Chapter One-->
+    <string name="chapter_one">Alphie Combinations</string>
+    <!--Alphie Combinations: Start-->
+    <string name="alphi_introduction">In Alphie Combinations, the elements are not viewed as numbers,
+	"\n"rather as digits which can be permuted within that digital context
+	"\n"until there are no other ways of permuting such elements of the digital value in question:
+    "\n\n"Example:"\n"
+	Value 23 can be digitally permuted as 23 and(or) 32 which does not make 23, as a numeric, equal to 32.
+	However, 23 and 32 are both digitally equal in the context of this concept. That is, 23 both digitally
+	translate to 2+3 and 3+2 which yields the same digital value of 5.
+        "\n"It means that, though 23 is not equal to 32 in terms of the actual numeric value, 23 is equal to 32 in the
+		digital context notation of this study. So 23 and 32 -> 2+3 = 5 and 3+2 = 5, either way.
+    This digital concept holds water if we do away with placeholder notation - meaning that in a number like 23,
+		both 2 and 3 are treated as though they occupy the same place value (both tens and units).
+    This allows, therefore, for unrestricted rearrangments of digits without fear of breaching the placeholder notation
+	principle, which then, implicates this study as distinguished from conventional procedures."\n\n"</string>
+
+    <string name="alphiePrinciple">
+        Principle"\n"
+	    \"The number of compounds in a sequence is always one more the number of the entry\"
+        "\n\n"
+        Entry 5 will generate six combinations of compounds
+		The number zero is an exception, since it is not practically effective.
+    </string>
+
+    <string name="alphie_example">
+        "\n\n"Pick any number to learn more on how"\n"Alphie Combinations can be applied."\n\n"
+
+    </string>
+
+    <string name="alphie_zero">
+        "\n\n"
+        The value of zero is an exception,"\n"since it is not practically effective.
+        "\n\n"
+
+    </string>
+
+    <!--ONE-->
+    <!--Addition-->
+    <string name="a_one_intro">
+        Adding the digital singularity with the digital unity"\n"
+		Getting resultant unity
+    </string>
+    <string name="a_one">
+        01"\n"
+		0 + 1"\n"
+		1"\n"
+		------------------------------------"\n"
+		10"\n"
+		1 + 0"\n"
+		1"\n"
+		------------------------------------"\n\n"
+		1 + 1 = 2"\n"
+    </string>
+    <string name="a_one_conclusion">
+        Adding the 2 Resultant Unities we get 2 which is the first prime of the first order -"\n"
+		where order implies the number of digits"\n\n"
+    </string>
+
+    <!--Multiplication-->
+    <string name="a_one_intro_mult">
+        Multiplying the digital singularity with the digital unity"\n"
+		Getting digital singularities
+    </string>
+    <string name="a_one_mult">
+        01"\n"
+		0 x 1"\n"
+		0"\n"
+		------------------------------------"\n"
+		10"\n"
+		1 x 0"\n"
+		0"\n"
+		------------------------------------"\n\n"
+		0 + 0 = 0"\n"
+    </string>
+    <string name="a_one_conclusion_mult">
+        Adding the 2 Resultant Singularities we get a singularity. "\n\n"
+    </string>
+
+    <!--Subtracting-->
+    <string name="a_one_intro_sub">
+        Subtracting the digital singularity from the digital unity and vice-versa"\n"
+		Getting the Additive Inverse of Unity and Unity itself
+    </string>
+    <string name="a_one_sub">
+        01"\n"
+		0 - 1"\n"
+		-1"\n"
+		------------------------------------"\n"
+		10"\n"
+		1 - 0"\n"
+		1"\n"
+		------------------------------------"\n\n"
+		-1 + 1 = 0"\n"
+    </string>
+    <string name="a_one_conclusion_sub">
+        Adding the 2 we get Resultant Singularity"\n\n"
+    </string>
+
+    <!--Division-->
+    <string name="a_one_intro_div">
+        Dividing, either way, the Digital Singularity and the Digital Unity
+    </string>
+    <string name="a_one_div">
+        01"\n"
+		0 / 1"\n"
+		0"\n"
+		------------------------------------"\n"
+		10"\n"
+		1 / 0"\n"
+		inf"\n"
+		------------------------------------"\n\n"
+        0 + inf = inf"\n"
+    </string>
+    <string name="a_one_conclusion_div">
+        Adding the 2 we get Resultant Infinity"\n\n"
+    </string>
+
+    <!--TWO-->
+    <!--Addition-->
+    <string name="a_two_intro">
+        Let us explore further, with other numbers;"\n"
+        02 11 20"\n"
+    </string>
+    <string name="a_two">
+        02"\n"
+		0 + 2"\n"
+		2"\n"
+		------------------------------------"\n"
+		11"\n"
+		1 + 1"\n"
+		2"\n"
+        ------------------------------------"\n"
+		20"\n"
+		2 + 0"\n"
+		2"\n"
+		------------------------------------"\n\n"
+		2 + 2 + 2 = 6"\n"
+    </string>
+    <string name="a_two_conclusion">
+        6 = 2 x 3 "\n"
+        A product of the first two prime numbers.
+    </string>
+
+    <!--Multiplication-->
+    <string name="a_two_mult">
+        02"\n"
+		0 x 2"\n"
+		0"\n"
+		------------------------------------"\n"
+		11"\n"
+		1 x 1"\n"
+		1"\n"
+        ------------------------------------"\n"
+		20"\n"
+		2 x 0"\n"
+		0"\n"
+		------------------------------------"\n\n"
+		0 + 1 = 0"\n"
+    </string>
+    <string name="a_two_conclusion_mult">
+          The sequence above has a poetic flow - There is unity in nothingness or singularity...."\n\n"
+        I must come back and fill this conclusion part.
+    </string>
+
+    <!--Subtracting-->
+    <string name="a_two_sub">
+        02"\n"
+		0 - 2"\n"
+		-2"\n"
+		------------------------------------"\n"
+		11"\n"
+		1 - 1"\n"
+		0"\n"
+        ------------------------------------"\n"
+		20"\n"
+		2 - 0"\n"
+		2"\n"
+		------------------------------------"\n\n"
+		-2 + 0 + 2 = 0"\n"
+    </string>
+    <string name="a_two_conclusion_sub">
+       As it can be noticed there is n alpha prime number 2 "\n"
+        complemented by its counter part -2 .... "\n"
+        I must come and finish the conclusion here as well..."\n\n"
+    </string>
+
+    <!--Division-->
+    <string name="a_two_div">
+        02"\n"
+		0 / 2"\n"
+		0"\n"
+		------------------------------------"\n"
+		11"\n"
+		1 / 1"\n"
+		1"\n"
+        ------------------------------------"\n"
+		20"\n"
+		2 / 0"\n"
+		inf"\n"
+		------------------------------------"\n\n"
+		0 + 1 + inf = inf"\n"
+    </string>
+    <string name="a_two_conclusion_div">
+        The above sequence coud  have to do with our traditional ways of life that....."\n"
+        I will come back and finish this off...."\n\n"
+    </string>
+
+    <!--One_Final_word-->
+
+    <string name="two_final_word">
+       <!--The Final word here is part of Division conclusion-->
+    </string>
+
+    <!--THREE-->
+    <!--Addition-->
+    <string name="a_three_intro">
+        Note that  3 yields 4 entries."\n"
+        03 12 21 30"\n"
+    </string>
+    <string name="a_three">
+        03"\n"
+		0 + 3"\n"
+		3"\n"
+		------------------------------------"\n"
+		12"\n"
+		1 + 2"\n"
+		3"\n"
+        ------------------------------------"\n"
+		21"\n"
+		2 + 1"\n"
+		3"\n"
+        -------------------------------------"\n"
+		30"\n"
+		3 + 0"\n"
+		3"\n"
+		------------------------------------"\n\n"
+		3 + 3 + 3 + 3 = 12"\n"
+    </string>
+    <string name="a_three_conclusion">
+        12 = 1 + 2 = 3"\n\n"
+        3 is the second prime number in the frozen universe/object(without life or deprived of time)."\n"
+        Perhaps the sequence indicates that the cosmic freezing phenomenon has 4 phases or cycles."\n\n"
+    </string>
+
+    <!--Multiplication-->
+    <string name="a_three_mult">
+        03"\n"
+		0 x 3"\n"
+		0"\n"
+		------------------------------------"\n"
+		12"\n"
+		1 x 2"\n"
+		2"\n"
+        ------------------------------------"\n"
+		21"\n"
+		2 x 1"\n"
+		2"\n"
+        -------------------------------------"\n"
+		30"\n"
+		3 x 0"\n"
+		0"\n"
+		------------------------------------"\n\n"
+		0 + 2 + 2 + 0 = 4"\n"
+    </string>
+    <string name="a_three_conclusion_mult">
+        4 = 2^2 (Square prime number)"\n"
+        A square prime number could denote a factor of the area in the fabric of space - "\n"
+        whatever the scale of measurement."\n"
+        I will also comeback and add more info here.
+    </string>
+
+    <!--Subtracting-->
+    <string name="a_three_sub">
+        03"\n"
+		0 - 3"\n"
+		-3"\n"
+		------------------------------------"\n"
+		12"\n"
+		1 - 2"\n"
+		-1"\n"
+        ------------------------------------"\n"
+		21"\n"
+		2 - 1"\n"
+		1"\n"
+        -------------------------------------"\n"
+		30"\n"
+		3 - 0"\n"
+		3"\n"
+		------------------------------------"\n\n"
+		-3 + -1 + 1 + 3 = 0"\n"
+    </string>
+    <string name="a_three_conclusion_sub">
+        NB: 3 is prime and -3 is the opposite of prime 3. implications could be two similar and
+        congruent 3 dimensional beings/objects/universes, one from the past and another from the future -
+        like Alpha and Omega or identical twins one too weak and other too strong in which case the
+        weaker twin could be trapped in this life but stronger in another universe and vice versa.
+        "\n\n"
+        1 denotes unity and -1 could be unity in another life.(Not necessaril the opposite)
+        "\n\n"
+    </string>
+
+    <!--Division-->
+    <string name="a_three_div">
+        03"\n"
+        0 / 3"\n"
+        0"\n"
+        ------------------------------------"\n"
+        12"\n"
+        1 / 2"\n"
+        0.5"\n"
+        ------------------------------------"\n"
+        21"\n"
+        2 / 1"\n"
+        2"\n"
+        -------------------------------------"\n"
+        30"\n"
+        3 / 0"\n"
+        inf"\n"
+        ------------------------------------"\n\n"
+        0 + 0.5 + 2 + inf = inf"\n"
+    </string>
+    <string name="a_three_conclusion_div">
+        NB: 0 is boundary to the infinitely small and infity is boundary to the continuouslsy large.
+        0.5 (Half) and 2 are multiplicative inverses of one another."\n"
+        I will come back and finish this off...."\n\n"
+    </string>
+
+    <!--One_Final_word-->
+
+    <string name="three_final_word">
+       <!--I am not too sure if there is any final word-->
+    </string>
+
+    <!--Execises-->
+    <string name="a_four_question">
+        How many entries does 4 yield?
+    </string>
+
+    <string name="a_four">
+        04"\n"
+		0 + 4"\n"
+		4"\n"
+		------------------------------------"\n"
+		13"\n"
+		1 + 3"\n"
+		4"\n"
+        ------------------------------------"\n"
+		22"\n"
+		2 + 2"\n"
+		4"\n"
+        -------------------------------------"\n"
+		31"\n"
+		3 + 1"\n"
+		4"\n"
+        -------------------------------------"\n"
+		40"\n"
+		4 + 0"\n"
+		4"\n"
+		------------------------------------"\n\n"
+		4 + 4 + 4 + 4 + 4 = 20"\n"
+    </string>
+    <string name="a_four_conclusion">
+        20 = 2 + 0 = 2 (The Alpha prime number)"\n\n"
+        One of  the connotations of 2 could be the dual nature of life."\n"
+        Note that lif embraces, both 3 Dimensions and that of time, which equal 4 Dimensions as in
+        the sequence."\n\n"
+    </string>
+
+    <!--Multiplication-->
+    <string name="a_four_mult">
+        04"\n"
+		0 x 4"\n"
+		0"\n"
+		------------------------------------"\n"
+		13"\n"
+		1 x 3"\n"
+		3"\n"
+        ------------------------------------"\n"
+		22"\n"
+		2 x 2"\n"
+		4"\n"
+        -------------------------------------"\n"
+		31"\n"
+		3 x 1"\n"
+		3"\n"
+        -------------------------------------"\n"
+		40"\n"
+		4 x 0"\n"
+		0"\n"
+		------------------------------------"\n\n"
+		0 + 3 + 4 + 3 + 0 = 10"\n"
+    </string>
+    <string name="a_four_conclusion_mult">
+        10 = 1 + 0  = 1 (Unity)
+        10 = 1 - 0  = 1 (Unity)
+        10 = 1 x 0  = 1 (Singularity)
+        10 = 1 / 0  = inf (Infinity)
+    </string>
+
+    <!--Subtracting-->
+    <string name="a_four_sub">
+        04"\n"
+		0 - 4"\n"
+		-4"\n"
+		------------------------------------"\n"
+		13"\n"
+		1 - 3"\n"
+		-2"\n"
+        ------------------------------------"\n"
+		22"\n"
+		2 - 2"\n"
+		0"\n"
+        -------------------------------------"\n"
+		31"\n"
+		3 - 1"\n"
+		2"\n"
+        -------------------------------------"\n"
+		40"\n"
+		4 - 0"\n"
+		4"\n"
+		------------------------------------"\n\n"
+		-4 + (-2) + 0 + 2 + 4 = 0"\n"
+    </string>
+    <string name="a_four_conclusion_sub">
+       Nothing much to say here.."\n\n"
+    </string>
+
+    <!--Division-->
+    <string name="a_four_div">
+        04"\n"
+		0 / 4"\n"
+		0"\n"
+		------------------------------------"\n"
+		13"\n"
+		1 / 3"\n"
+		(1/3)"\n"
+        ------------------------------------"\n"
+		22"\n"
+		2 / 2"\n"
+		1"\n"
+        -------------------------------------"\n"
+		31"\n"
+		3 / 1"\n"
+		3"\n"
+        -------------------------------------"\n"
+		40"\n"
+		4 / 0"\n"
+		inf"\n"
+		------------------------------------"\n\n"
+		0 + (1/3) + 1 + 3 + inf = inf"\n"
+    </string>
+    <string name="a_four_conclusion_div">
+        Nothing to be said as well"\n\n"
+    </string>
+
+    <!--One_Final_word-->
+
+    <string name="four_final_word">
+       <!--I am not too sure if there is any final word-->
+        You've done a great Job \m/\m/
+    </string>
+
+    <!--FIVE-->
+    <string name="a_five_question">
+        How many entries does 5 yield?
+    </string>
+    <string name="a_five_question1">
+        a. 05 14 23 32 41 50
+        b. 50 05 23 14 41 32
+        c. 05 14 23 32 50 41
+        d. 05 23 14 32 41 50
+        e. 05 14 32 23 41 50
+    </string>
+    <!--Alpie Combinations: End-->
+
+
+    <string name="chapter_two">The Derivativish</string>
+    <!--The Derivativish: Start-->
+    <string name="devish_intro">
+        The Derivativish is an operation based on the idea of derivatives,
+        however with a somewhat twisted approach governed by the equation:"\n\n"
+        D = x<sup>y</sup> - xy,"\n"
+        if x<sup>y</sup> is improvised to xy + D"\n"
+        In other words, if z = x<sup>y</sup> then z = xy + (x<sup>y</sup> -xy) "\n\n"
+
+    </string>
+    <string name="devish_remark"><!--I will use this for the example.-->
+        (Let n be an element of whole numbers and m be an element of negative integers)"\n"
+        Please note that n and m can belong to any set  - these choices are only for this case.
+        The following cases will be restricted for bases 1 and 0, any other real number can be 
+        entertained by the learner."\n\n"
+    </string>
+    <string name="devish_example_0">
+        2<sup>0</sup> "\n"
+        (0 x 2) + 1"\n"
+        ------------------------------------"\n"
+        1"\n\n"
+    </string>
+    <string name="devish_example_1">
+        2<sup>1</sup> "\n"
+        (1 x 2) + 0"\n"
+        ------------------------------------"\n"
+        2"\n\n"
+    </string>
+    <string name="devish_example_2">
+         2<sup>3</sup> "\n"
+        (3 x 2) + 2"\n"
+        ------------------------------------"\n"
+        8"\n\n"
+    </string>
+    <string name="devish_example_3">
+         2<sup>4</sup> "\n"
+        (4 x 2) + 8"\n"
+        ------------------------------------"\n"
+        16"\n\n"
+    </string>
+    <string name="devish_example_4">
+         2<sup>5</sup> "\n"
+        (5 x 2) + 22"\n"
+        ------------------------------------"\n"
+        32"\n\n"
+    </string>
+    <string name="devish_example_5">
+         2<sup>6</sup> "\n"
+        (6 x 2) + 52"\n"
+        ------------------------------------"\n"
+        64"\n\n"
+    </string>
+    <!--I will comeback and continue should there be something I feel
+    like is missing-->
+
+    <!--Now I am doing the Axioms of Derivativish-->
+    <string name="devish_axiom_one">
+        A sequence 2<sup>m</sup>[2n+(2<sup>n</sup> - 2n)] can always reduce to unity (1)"\n\n"
+    </string>
+    <string name="devish_axiom_two">
+        The number of steps to unity (1) is determined by the number of entries ..."\n\n"
+        <!--Lazy to type-->
+    </string>
+    <string name="devish_axiom_three">
+        <!--Lazy to type-->
+        The sum of corresponding terms on any 2 cons... "\n\n"
+        
+    </string>
+    <string name="devish_axiom_four">
+        Corresponding entries of rows are all divisible by each other.... "\n\n"
+    </string>
+    <string name="devish_axiom_five">
+        <!--Still Lazy to type-->
+        Entries of all columns....."\n\n"
+        
+    </string>
+
+    <!--The Derivativish: End -->
+
+
+    <string name="chapter_two_one">Derivative</string>
+    <!--Derivative: Start-->
+    <!--7 Axioms in total-->
+    <string name="derivative_axiom_one">
+        <!--Lazy to type-->
+        If n represents the position of any column..."\n"
+    </string>
+    <string name="derivative_axiom_two">
+        <!--To be continued-->
+        In any pair of rows and if n denotes the position of any term..."\n"
+    </string>
+    <string name="derivative_axiom_three">
+        <!--To be continued-->
+        The sums of the quotients are, also, divisible by each other...."\n"
+    </string>
+    <string name="derivative_axiom_four">
+        <!--to be continued...-->
+        The differences of quotients are divisible by each other..."\n"
+    </string>
+    <string name="derivative_axiom_five">
+        <!--To be continued-->
+        The division of entries or that of the difference of entries in any row of choice..."\n"
+    </string>
+    <string name="derivative_axiom_six">
+        <!--To be continued-->
+        If a row divides unto itself, a power set{2<sup>0</sup>;2<sup>0</sup>;2<sup>0</sup>;...} is generated which leads..."\n"
+    </string>
+    <string name="derivative_axiom_seven">
+        <!--To be continued-->
+        The first row of any base n sequence is the very first column of base(n + 1)..."\n"
+    </string>
+    <string name="derivative_axiom_eight">
+        <!--To be continued as well-->
+        As a result of the above axiom, it can be proposed that all row and column sequences..."\n"
+    </string>
+    <!--3 Examples-->
+    <string name="derivative_example_one">
+        1<sup>0</sup> "\n"
+        (0 x 1<sup>(0-1)</sup>)"\n"
+        (0 x 1<sup>(-1)</sup>)"\n"
+        (0 x 1/1))"\n"
+        (0 x 1))"\n"
+        ------------------------------------"\n"
+        0"\n\n"
+    </string>
+    <string name="derivative_example_two">
+        1^1 "\n"
+        (1 x 1^(1-1))"\n"
+        (1 x 1^(0))"\n"
+        (1 x 1))"\n"
+        (1 x 1))"\n"
+        ------------------------------------"\n"
+        1"\n\n"
+    </string>
+    <string name="derivative_example_three">
+        1^2 "\n"
+        (2 x 1^(2-1))"\n"
+        (2 x 1^(1))"\n"
+        (2 x 1))"\n"
+        ------------------------------------"\n"
+        2"\n\n"
+    </string>
+    <string name="derivative_example_four">
+        1^3 "\n"
+        (3 x 1^(3-1))"\n"
+        (3 x 1^(2))"\n"
+        (3 x 1))"\n"
+        ------------------------------------"\n"
+        3"\n\n"
+    </string>
+
+    <string name="derivative_example">
+        The emerging sequence is: 0,1,2,3,4,..."\n"
+        Taking the difference between every pair of terms, successively and row after row we get the sequence"\n"
+
+        1,1,1,1,...."\n"
+        0,0,0,..."\n"
+        0,0,..."\n"
+        0,..."\n"
+    </string>
+
+    <string name="derivative_exercise_one">
+        Following the same chain of thought as with 1 in the example"\n"
+        Find the pattern for numbers: 2 and 3
+    </string>
+
+
+    <string name="chapter_three">Digital Trading</string>
+    <string name="chapter_four">Sums of Digital Trading</string>
+    <string name="chapter_five">Ncanyana Sums</string>
+    <string name="chapter_six">Special Decimals</string>
+    <string name="chapter_seven">Decimals of the nth Degree</string>
+    <string name="chapter_eight">Decimals of the negative nth degree</string>
+    <string name="chapter_nine">Abridging Coincidences</string>
+    <string name="welcome_message">Mathemaking Mathematics Software</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

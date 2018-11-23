@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7d00a"
+    tools:context=".AlphieExercise">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter_one"
+        android:textColor="#837d4e"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#837d4e"
+        android:text="Try identifying the Alphie Combinations
+         in the folllowing numbers"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alphie4"
+        android:background="@drawable/a_four"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alphie5"
+        android:background="@drawable/a_five"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alphie6"
+        android:background="@drawable/a_six"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+
+
+        />
+
+
+</LinearLayout>

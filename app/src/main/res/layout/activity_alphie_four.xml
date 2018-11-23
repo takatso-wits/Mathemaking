@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlphieFour">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/a_four_question"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                />
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/edAnsToYield1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:id="@+id/btnSubmitAns1"/>
+        </TableRow>
+    </TableLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="Addition"
+                android:textColor="@android:color/black"
+                />
+
+            <!--Addition-->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvAddition"
+                        android:textColor="@android:color/black"
+
+                        android:textSize="14sp"
+                        android:text="@string/a_four"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:visibility="invisible"/>
+                </LinearLayout>
+
+
+            </ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_four_conclusion"
+                android:visibility="invisible"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                />
+
+            <!--Multiplication-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="Multiplication"
+                android:textColor="@android:color/black"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:text="@string/a_four_mult"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_four_conclusion_mult"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                />
+
+            <!--Subtraction-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="Subtraction"
+                android:textColor="@android:color/black"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:text="@string/a_four_sub"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_four_conclusion_sub"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                />
+
+            <!--Division-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="Division"
+                android:textColor="@android:color/black"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:text="@string/a_four_div"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_four_conclusion_div"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                />
+
+            <!--Final Word-->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digital_trading_introduction">
+        This topic explores what happens as digits in a single number are swapped in a manner
+        that generates different numbers from it. The idea of digital swapping is not focused
+        on the value of the number, but on its digital array.
+
+    </string>
+
+    <string name="digital_example_one">
+        We will borrow from the rule of factorial, only this time addressing the number of digits
+        and not the value of the number."\n\n"
+        5! = 5 x 4 x 3 x 2 x 1 = 120"\n"
+        So generally, "\n"
+        n! = n x (n-1) x (n - 2) x (n-3)..."\n\n"
+        However, this time we will be taking a factorial, not of the value of the number, of the
+        number of ways its digigts can be arranged. Ultimately, we will take pair by pair differences
+        to observe if there is any pattern emerging."\n\n"
+
+        Note:"\n"
+        The rule of factorial is  only a way through, but thi topic is about taking differences
+        between similar, but, swapped digits."\n\n"
+    </string>
+
+    <string name="digital_example_two">
+        <!--Example will shall continue-->
+        Example: 12 and 21"\n"
+        As can be seen the two numbers have different values, however they do appear to be slit
+        images of one another...."\n"
+        Lazy to type again
+    </string>
+    <string name="digital_example_three">
+        <!--Example will shall continue-->
+        Example: 31 - 13 = 18"\n"
+        41-14 = 27"\n"
+
+        Note that as the difference between the digits is plus or minus a number the outcome of which
+        is a multiple of 9 and the absolute-value factor of which is the digital difference...."\n"
+        Lazy to type again"\n"
+    </string>
+    <!--Digital Trading Axioms-->
+    <string name="digital_axiom_one">
+        The difference between any, digitally forward, and, digitally reverse, entries is a number
+        the quotient by nine of which is some number the extreme digits are replicas of each other."\n"
+    </string>
+    <string name="digital_axiom_two">
+        The difference of any digital combination with its own, other, digital permmutation(s) is
+        always a number divisible by 9."\n"
+    </string>
+    <string name="digital_axiom_three">
+        The nature of the repeating digit plus the digital absolute-value-difference of the actual
+        difference in value, yield the nature of the consecutive repeat value"\n"
+    </string>
+
+    <!--Sums of Digital Trading-->
+    <string name="sum_digital_hypothesis">
+        \"Numbers the digits of which repeat or finitely recur, stem from the same digital nature.\""\n"
+        "\n"
+        Example: "\n"
+        12 + 21 = 33 "\n"
+        23 + 32 = 55 "\n"
+        123 + 321 = 444 "\n"
+    </string>
+    <!--Cubic sums in the sums of the cubes-->
+    <string name="sum_digital_cubic_sums">
+        CUBIC SUMS IN THE SUMS OF CUBES"\n\n"
+
+        1^3 + 1^3 "\n"
+        1 + 1"\n"
+        2"\n"
+        ---------------------------------"\n"
+        (1 + 1)^3 "\n"
+        (2)^3"\n"
+        8"\n\n"
+
+        2^3 + 2^3 "\n"
+        8 + 8"\n"
+        16"\n"
+        ---------------------------------"\n"
+        (2 + 2)^3 "\n"
+        (4)^3"\n"
+        64"\n"
+        ---------------------------------"\n\n"
+
+        Thus,"\n" (x + y)/( x<sup>3</sup> + y )<sup>3</sup> = 4"\n\n"
+
+        For each pair above, divide the outcome of the second row by the outcome of the first row."\n"
+        That is, divide the result in the cubic sum by that in the sum of cubes:"\n"
+
+        8/2 = 4"\n"
+        64/16 = 4"\n"
+
+        As observed that the quotient is always 4 each time the cubic sum is divided by the sum of cubes,
+        a learner can thus deduce from emerging pattern the relationship and formmulate a rule as such."\n\n"
+
+        Note: For a single, specific integer - there exist a relationship between the binomianl sum
+        of its cubes and the cube of its binomial sum, the quotient of which is always a constant number 4. "\n"
+
+        The general formula , thus, is as follows:"\n"
+        x<sup>3</sup> + x<sup>3</sup> = z"\n"
+        (x + x)<sup>3</sup> = z"\n"
+        (2x)<sup>3</sup> = z"\n"
+        8x<sup>3</sup> = z"\n\n"
+        8x<sup>3</sup>/z = 4 "\n"
+
+    </string>
+    <!--We can make these notes examples too. Since we have covered other types of examples already-->
+    <string name="sum_digital_note1">
+        There exist a relationship between Binomial sum of the first degrees and the first degree of
+        its binomial sum."\n"
+        The quotient of which is unity.
+    </string>
+
+    <string name="sum_digital_note2">
+        There exist a relationship between Binomial sum of the second degrees and the second degree of
+        its binomial sum."\n"
+        The quotient of which is a constant number 2."\n\n"
+    </string>
+
+    <string name="cubic_sums_closing_note">
+        Note that the rule changes for polynomials of the 1<sup>st</sup>,2<sup>nd</sup>,3<sup>rd</sup>
+        ... n<sup>th</sup> degrees, and that remains with the aspiring mathematician to further
+        investigate and draw conclusions in form of mathematical formula."\n\n"
+    </string>
+
+    <string name="sum_digital_exercise4">
+        There exist a relationship between Binomial sum of its nth degrees and the nth degree of its
+        binomial sum - the quotient of which is n."\n"
+        Verify.
+    </string>
+
+    <!--The digital sum of Prime numbers-->
+    <string name="sum_digital_prime_numbers">
+        Let us experiment with a set of Prime within range(1,100)."\n"
+        The following set is generated as a result: "\n"
+        p = {1,2,3,5,7,11,13,17,19,23...}"\n"
+        "\n"
+        Summing up the double digit prime numbers of p we get:"\n"
+        p = {1,2,3,5,7,1 + 1, 1 + 3, 1 + 7,1 + 9, 2 + 3, ...}"\n"
+        = {1,2,3,5,7,2,4,8,10,5,...}"\n"
+        = {1,2,3,5,7,2,4,8,1 + 0,5,...}"\n"
+        = {1,2,<b>3</b>,5,7,2,4,8,1,5} "\n"
+        "\n"
+        Notice that except for the 3 that comes naturally with the set of primes, the consolodited
+        set bears no <b>3, 6 and 9</b> (multiples of 3)"\n"
+        <!--I will need an Excercise for Digitally Permutted sums for Primes-->
+        This means that the set of prime numbers within the given range cannot have digitally permuted sums."\n"
+
+    </string>
+    <string name="sum_digital_prime_numbers_exercise1">
+        What conclusion can you draw? "\n"
+        Can you conclude the same for a three digit range(100 - 999) and an up to infinite range? "\n"
+        etc...
+
+    </string>
+
+    <string name="sum_digital_prime_commutative">
+        Prime Elements of Commutative Digits: "\n"
+        31 ~ 31"\n"
+        17 ~ 71"\n"
+        19 ~ 91"\n"
+    </string>
+    <string name="sum_digital_prime_non_commut">
+        Prime Elements of Non-Commutative Digits: "\n"
+        23 ~ 32"\n"
+        29 ~ 92"\n"
+        41 ~ 14"\n"
+    </string>
+
+
+</resources>

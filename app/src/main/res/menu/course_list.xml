@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/lessons"
+        android:title="Lessons"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/topic1"
+        android:title="@string/chapter_one"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic2"
+        android:title="@string/chapter_two"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic3"
+        android:title="@string/chapter_three"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/topic4"
+        android:title="@string/chapter_four"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/topic5"
+        android:title="@string/chapter_five"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic6"
+        android:title="@string/chapter_six"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic7"
+        android:title="@string/chapter_seven"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic8"
+        android:title="@string/chapter_eight"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/topic9"
+        android:title="@string/chapter_nine"
+        app:showAsAction="never"/>
+
+
+
+</menu>

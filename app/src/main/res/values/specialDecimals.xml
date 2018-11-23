@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="specialDecimal_note">
+        Here we will focus on squaring decimal numbers and trying to predict the outcome based on a
+        pattern that emerges. Even though it is limitless, since decimal numbers are infinitely
+        many, we will however, make it brief thereby living most of it in the hands of the
+        experimenter/explorer/investigator."\n\n"
+    </string>
+
+    <!--Decimals of the nth Degree-->
+    <string name="decimal_square">
+        SQUARE DECIMAL"\n"
+        If <i>n</i> is a positive integer, then <i>(n + 0.5) or (n + <sup>1</sup>/<sup>2</sup> )</i>
+        is any decimal number such that the integer becomes increased by half. "\n"
+        Take a number like 1.5, for instance, where 1.5 is a positive integer increased by half. "\n"
+        Note that <i>n</i> could just, generally, be an integer - we restrict this study to positive
+        integers by choice, otherwise it does not alter the course. If we square the decimal number,
+        the following is what we get: "\n\n"
+    </string>
+    <string name="decimal_example1">
+        (1.5)<sup>2</sup> = (1.5)(1.5) = 2.25 "\n"
+        or"\n"
+        1.5"\n"
+        x 1.5"\n"
+        -------------------------"\n"
+        0.75"\n"
+        15.0"\n"
+        -------------------------"\n"
+        = 2.25 "\n\n"
+        This is a well-known old method used for multiplication without a calculator."\n"
+
+    </string>
+
+    <string name="decimal_example2">
+        (2.5)<sup>2</sup> = (2.5)(2.5) = 6.25 "\n"
+        or"\n"
+        2.5"\n"
+        x 2.5"\n"
+        -------------------------"\n"
+        125"\n"
+        50.0"\n"
+        -------------------------"\n"
+        = 6.25 "\n\n"
+        This is a well-known old method used for multiplication without a calculator."\n"
+
+    </string>
+
+    <string name="decimal_cubic">
+        CUBIC DECIMAL"\n"
+        This section and the rest, in higher exponents to the nth degree, is left for the user to
+        experiment,investigate, explore and hope to formulate a general solution in the end."\n\n"
+
+        On the other hand we should note that the <i>Zeroth Decimal</i> was ignored because it is
+        nothing other than unity - since any number raised to zero is one. The first decimal was
+        neglected, as well, since any number raised to unity is the number itself. "\n"
+    </string>
+
+    <!--Decimal of the Negative nth degree-->
+    <string name="negative_decimal">
+        This section is left majorly on the shoulders of an investigator, since it is a build-up
+        of the previous topic."\n"
+        PER SQUARE DECIMAL "\n"
+        <i>(1.5)<sup>-2</sup> OR <sup>1</sup>/<sup>(1.5)<sup>2</sup>></sup></i>"\n\n"
+        PER CUBE DECIMAL "\n"
+        <i>(1.5)<sup>-3</sup> OR <sup>1</sup>/<sup>(1.5)<sup>3</sup>></sup></i>"\n\n"
+        PER NTH DECIMAL "\n"
+        <i>(1.5)<sup>-n</sup> OR <sup>1</sup>/<sup>(1.5)<sup>n</sup>></sup></i>"\n"
+        for <i>n > 0</i> and, conveniently, an element of positive integers.
+    </string>
+
+    <!--Abridging Coincidences-->
+    <string name="ac_intro">
+        <i>(n(n + n) - n)/n = n + (n - 1)</i>"\n"
+        The formula is graphic in it's nature to accurate the relationship of all four mathematical
+        operative signs(+, - , x, /), even though it translates to consolidated forms below. "\n\n"
+
+        <i>(n(2n) - n)/n = n + (n - 1)</i>"\n"
+        <i>(2n<sup>2</sup> - n)/n = (2n - 1)</i>"\n"
+
+    </string>
+
+    <string name="ac_example">
+        Example: Let n = 5 "\n"
+
+        <i>(2(5)<sup>2</sup> - 5)/5 = (2(5) - 1)</i>"\n"
+
+        "\n"
+        Note that the above equations equip an investigator with factoristion and factorisation by
+        grouping skills."\n\n"
+
+    </string>
+
+</resources>

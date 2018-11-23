@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.mathemaking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AlphieCombinations"
+            android:label="@string/chapter_one"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Derivativish"
+            android:label="@string/chapter_two"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".DigitalTrading"
+            android:label="@string/chapter_three"
+            android:parentActivityName=".MainActivity"/>
+
+
+        <activity
+            android:name=".SumsDigitalTrading"
+            android:label="@string/chapter_four"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".Ncanyana"
+            android:label="@string/chapter_five"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".SpecialDecimals"
+            android:label="@string/chapter_six"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".DecimalsNthDegree"
+            android:label="@string/chapter_seven"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".DecimalsNegativeNthDegree"
+            android:label="@string/chapter_eight"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AbridgingCoincidences"
+            android:label="@string/chapter_nine"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".AlphieNotes" />
+        <activity android:name=".AlphieExamples" />
+        <activity android:name=".AlphieOne" />
+        <activity android:name=".AlphieTwo" />
+        <activity android:name=".AlphieThree" />
+        <activity android:name=".AlphieFour" />
+        <activity android:name=".AlphieFive" />
+        <activity android:name=".AlphieSix" />
+        <activity android:name=".AlphieSeven" />
+        <activity android:name=".AlphieEight" />
+        <activity android:name=".AlphieNine" />
+        <activity android:name=".AlphieTest" />
+        <activity android:name=".AlphieExercise" />
+        <activity android:name=".DevishNotes" />
+        <activity android:name=".DevishExamples" />
+        <activity android:name=".Derivative" />
+        <activity android:name=".DerivativeNotes" />
+        <activity android:name=".DerivativeExamples" />
+        <activity android:name=".DigitalNotes" />
+        <activity android:name=".DigitalExample" />
+        <activity android:name=".SumDigitalNotes" />
+        <activity android:name=".SumDigitalExample" />
+        <activity android:name=".SumDigitalExercise" />
+        <activity android:name=".SumDigitalTest"></activity>
+    </application>
+
+</manifest>

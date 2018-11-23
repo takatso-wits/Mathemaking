@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlphieFive">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1."
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/a_five_question"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                />
+            <EditText
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Integer"
+                android:id="@+id/edAnsToYield5"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2."
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingRight="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:text="Choose the correct answer: "/>
+
+        </TableRow>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/radioGroup1">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBtnA"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="a. 05 14 23 32 41 50"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBtnB"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="b. 50 05 23 14 41 32"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBtnC"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="c. 05 14 23 32 50 41"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBtnD"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:text="d. 05 23 14 32 41 50"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBtnE"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:text="e. 05 14 32 23 41 50"/>
+
+        </RadioGroup>
+
+    </TableLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:id="@+id/btnSubmit5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingTop="10dp"
+        android:id="@+id/testingPowers"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
