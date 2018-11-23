@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.admin.mathemaking">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,59 +11,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".AlphieCombinations"
             android:label="@string/chapter_one"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Derivativish"
             android:label="@string/chapter_two"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DigitalTrading"
             android:label="@string/chapter_three"
-            android:parentActivityName=".MainActivity"/>
-
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SumsDigitalTrading"
             android:label="@string/chapter_four"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Ncanyana"
             android:label="@string/chapter_five"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SpecialDecimals"
             android:label="@string/chapter_six"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DecimalsNthDegree"
             android:label="@string/chapter_seven"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DecimalsNegativeNthDegree"
             android:label="@string/chapter_eight"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AbridgingCoincidences"
             android:label="@string/chapter_nine"
-            android:parentActivityName=".MainActivity"/>
-
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".AlphieNotes" />
         <activity android:name=".AlphieExamples" />
         <activity android:name=".AlphieOne" />
@@ -85,7 +77,8 @@
         <activity android:name=".SumDigitalNotes" />
         <activity android:name=".SumDigitalExample" />
         <activity android:name=".SumDigitalExercise" />
-        <activity android:name=".SumDigitalTest"></activity>
+        <activity android:name=".SumDigitalTest" />
+        <activity android:name=".RegistrationActivity"></activity>
     </application>
 
 </manifest>

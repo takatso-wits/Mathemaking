@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "246155379418",
+    "firebase_url": "https://mathemaking.firebaseio.com",
+    "project_id": "mathemaking",
+    "storage_bucket": "mathemaking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246155379418:android:fca471f64ebfa245",
+        "android_client_info": {
+          "package_name": "com.example.admin.mathemaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246155379418-df83dr7femdagstt931r85knghkgppki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.mathemaking",
+            "certificate_hash": "0d4baf2f6017b48006d2c4e683a01e6f45fbc5f4"
+          }
+        },
+        {
+          "client_id": "246155379418-osf040b0v4jtebe7f27ttsve4vq6kvq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeusrFg1QNGp771X0htY5Yt3blYY7CoHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246155379418-osf040b0v4jtebe7f27ttsve4vq6kvq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
