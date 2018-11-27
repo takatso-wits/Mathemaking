@@ -216,9 +216,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             Process p1 = Runtime.getRuntime().exec("ping -c 1 www.google.com");
             int returnVal = p1.waitFor();
             boolean reachable = (returnVal==0);
-
-            //System.out.println("Internet access");
-//System.out.println("No Internet access");
             return reachable;
 
         } catch (Exception e) {

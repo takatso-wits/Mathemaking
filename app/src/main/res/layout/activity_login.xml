@@ -39,6 +39,7 @@
         android:layout_marginTop="20dp"
         android:background="@android:color/white"
         />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -66,6 +67,6 @@
         android:text="Don't have an Accout?"
         android:textColorHint="@android:color/black"
         android:layout_gravity="center"
-        android:id="@+id/tv_newAccount" />
+        android:id="@+id/tv_login" />
 
 </LinearLayout>
